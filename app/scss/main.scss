@@ -1,0 +1,10 @@
+@import 'reset'; //сборс стилей
+@import 'fonts'; //подключаем шрифты (локально)
+@import 'base/variables'; //пишем переменные
+@import 'base/base'; //container
+
+//Подключаем компоненты
+@import "components/btn";
+
+//подключаем БЭМ блоки
+@import "blocks/form";

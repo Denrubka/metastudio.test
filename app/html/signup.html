@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тестовое задание meta</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<main class="main">
+  <div class="wrapper">
+    <h2 class="wrapper__title">Регистрация</h2>
+    <form action="/" class="form">
+      <label for="login" class="form__label">
+        <input type="text" class="form__input" id="login" autocomplete="off" required>
+        <span class="form__label-title">Логин</span>
+        <span class="form__label-error"></span>
+      </label>
+      <label for="email" class="form__label">
+        <input type="text" class="form__input" id="email" autocomplete="off" required>
+        <span class="form__label-title">Email</span>
+        <span class="form__label-error"></span>
+      </label>
+      <label for="phone" class="form__label">
+        <input type="tel" class="form__input" id="phone" autocomplete="off" required>
+        <span class="form__label-title">Телефон</span>
+        <span class="form__label-error"></span>
+      </label>
+      <label for="password" class="form__label">
+        <input type="password" class="form__input" id="password" autocomplete="off" required>
+        <span class="form__label-title">Пароль</span>
+        <span class="form__label-switcher"></span>
+        <span class="form__label-error"></span>
+      </label>
+      <label for="password-repeat" class="form__label">
+        <input type="password" class="form__input" id="password-repeat" autocomplete="off" required>
+        <span class="form__label-title">Подтверждение пароля</span>
+        <span class="form__label-switcher"></span>
+        <span class="form__label-error"></span>
+      </label>
+      <button class="btn form__btn btn-signup" id="btn" type="button">Зарегистрироваться</button>
+    </form>
+  </div>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>

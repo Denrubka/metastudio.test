@@ -1,0 +1,21 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: $button-bg;
+  padding: 14px 32px;
+  border-radius: 30px;
+  color: $white;
+  cursor: pointer;
+  transition: background-color .2s linear;
+
+  @media (max-width: 576px) {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+
+  &:hover {
+    background: #d3264f;
+  }
+}
